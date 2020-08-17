@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* @-webkit-keyframes pulo {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(2px);
+        background-color: brown;
+    }
+} */
+
+header{
+    background-color: orangered;
+    padding: 1px;
+}
+
+#logo{
+    width: 40px;
+}
+
+#nomemercado{
+    color: yellow;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid;
+    margin-left: 37%;
+    border-radius: 70px;
+    background-color: royalblue;
+    
+
+}
+
+#div1{
+    text-decoration: none;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;  
+    margin-left: 10px;
+}
+
+#div2{
+    text-decoration: none;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;  
+}
+
+#title{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html{
+    background-color: royalblue;
+}
+
+form{
+    background-color: orangered;
+    border: 1px solid #CCC;
+    float: left;
+    padding: 30px;
+    margin-left: 35%;
+    margin-top: 7%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 70px;
+} 
+
+form input{
+    padding: 3px;
+    width: 350px;
+    display: block;
+}
+
+form textarea{
+    width: 350px;
+    display: block;
+}
+
+#btn:hover{
+    padding: 1em 1.5em;
+}
+
+
+
+#btn:active{
+    transform: translateY(2px);
+    transition: all 1s ease-in-out 0.2s;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    
+        <div>
+            <img id="logo" src="https://image.flaticon.com/icons/svg/2921/2921829.svg" alt="">
+        </div>
+
+        <div id="div1";>
+            <a id="div1" href="consulta.html">Consulta</a>
+        </div>
+
+        <div id="div2">
+            <a id="div1" href="" >Cadastro</a>
+        </div>
+    
+        <div>
+            <h1 id="nomemercado">SUPERMERCADO IV2</h1>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="title">
+            Cadastro novo produto
+        </h1>
+        
+        <form>
+            <div>
+                <label>
+                    <b>Nome do produto:</b>
+                    <input id="nome" type="text">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <b>Numero de serie:</b>
+                    <input id="serie" type= "text" oninput="addponto()">
+                </label>
+            </div>
+
+            <br>
+            <div>
+                <h4>Tipo de produtos:</h4>
+                <select id="tipo">
+                    <option value="alimentos">Alimentos</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="produtos de limpeza">Produtos de limpeza</option>
+                    <option value="frios">Frios</option>
+                    <option value="carnes">Carnes</option>
+                    <option value="higiene">Higiene pessoal</option>
+                    <option value="outros">Outros</option>
+                    <option value="fruta">Fruta</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h4>Setor:</h4>
+                <select>
+                    <option value="hortifrúti">hortifrúti</option>
+                    <option value="padaria">padaria</option>
+                    <option value="açougue">açougue</option>
+                    <option value="mercado geral">Loja geral</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>
+                    <div>
+                      <textarea id="caracteristicas" rows="8" name="caracteristicas do produto"></textarea>
+                    </div>
+                        <b>Caracteristicas:</b> 
+                  </label>
+            </div>
+            <br>
+            <div>
+                <button type="submit" onclick="salvar()" id="btn">Salvar</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
