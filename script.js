@@ -16,11 +16,13 @@ if(produtos== null){
 function salvar(){
     const nome = document.getElementById("nome").value
     const tipo = document.getElementById("tipo").value
+    const setor = document.getElementById("setor").value
     const caracteristicas = document.getElementById("caracteristicas").value
 
     produtos.push({
         nome: nome,
         tipo: tipo,
+        setor: setor,
         caracteristicas: caracteristicas
     })
     console.log(produtos);
